@@ -273,23 +273,35 @@ body {
 }
 
 .mainHeader .header__logo {
+  padding: 7%;
   width: 40%;
 }
 
 .mainHeader .header__sections {
-  position: relative;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
+  margin: 3.3vh;
+  padding-top: 4%;
+  font-family: "Poppins", Bold;
   color: white;
+  text-decoration: none;
 }
 
 .mainHeader .banner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex: row;
+      -ms-flex: row;
+          flex: row;
+}
+
+.mainHeader .banner__title {
+  font-family: "Montserrat", SemiBold;
+  color: white;
+}
+
+.mainHeader .banner__buttom {
+  background-color: #F0B606;
+  font-family: "Montserrat", Normal;
 }
 
 /*.mainHeader {

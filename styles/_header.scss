@@ -20,19 +20,41 @@
 
       &__sections{
         //position: relative;
-        margin: 10px;
-        padding-top: 5%;
+        margin: 3.3vh;
+        padding-top: 4%;
         font-family: $headerfont;
         color: white;
         text-decoration: none;
       }
   }
+  .camera{
+    padding-top: 25%;
+    padding-left: 5%;
+    position: absolute;
+    width: 24%;
+  }
 
   .banner{
     display: flex;
-    //flex: ;
+    flex: row;
+    padding-left: 7%;
+
+    &__title{
+      padding-right: 60%;
+      font-family: $bannerfont;
+      color: white;
     }
 
+    &__buttom{
+      width: 20vh;
+      height: 5vh;
+      background-color: $yellow;
+      font-family: $buttomfont;
+      border: 0;
+    }
+  }
+
+   
 
 }
 
