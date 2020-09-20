@@ -248,9 +248,11 @@ body {
 }
 
 .mainHeader {
-  background-image: url("../Resources/header.jpg");
+  background-image: url("../Resources/image2.jpg");
   height: 100vh;
-  background-position: 40% 99%;
+  width: 100%;
+  background-position: 0% 45%;
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -285,6 +287,13 @@ body {
   text-decoration: none;
 }
 
+.mainHeader .camera {
+  padding-top: 15%;
+  padding-left: 3%;
+  position: absolute;
+  width: 51%;
+}
+
 .mainHeader .banner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -292,72 +301,48 @@ body {
   -webkit-box-flex: row;
       -ms-flex: row;
           flex: row;
+  padding-left: 6%;
+  padding-top: 10%;
 }
 
 .mainHeader .banner__title {
+  padding-right: 37%;
   font-family: "Montserrat", SemiBold;
   color: white;
+  font-size: 4vh;
 }
 
 .mainHeader .banner__buttom {
+  width: 20vh;
+  height: 5vh;
   background-color: #F0B606;
   font-family: "Montserrat", Normal;
+  border: 0;
 }
 
-/*.mainHeader {
+.bestSeller {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  height: 85vh;
-  background-image: url("../Resources/header.jpg");
-  background-position: 50% 35%;
-
-  .banner{
-      display: flow-root;
-  }
-
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.Header{
+.bestSeller__title {
+  background-image: url("../Resources/bestsellerBackground.jpg");
+  height: 48vh;
+  background-size: cover;
+}
 
-  width: 100%;
-  display: flex;
+.bestSeller .cont {
+  background-image: url("../Resources/productBackground.jpg");
+  height: 129vh;
+  background-size: cover;
+}
 
-  &__sections{
-      font: $headerfont;
-  }
-
-  &__logo{
-      width: 40%;
-      height: 41%;
-      padding-bottom: 300px;
-  }
-}*/
-/*.mainHeader {
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: flex-end;
-  
-    &__info {
-      padding: 20px;
-      display: flex;
-      background-color: rgba(34, 34, 34, 0.76);
-      color: #ffffff;
-      width: 100%;
-      align-items: center;
-  
-      .btn {
-        margin-left: auto;
-      }
-    }
-  
-    &__title {
-      font-size: 30px;
-      margin-right: 20px;
-    }
-  
-    &__text {
-      max-width: 40%;
-    }
-  }*/
+.bestSeller .cont__title {
+  height: 48vh;
+}
 /*# sourceMappingURL=main.css.map */

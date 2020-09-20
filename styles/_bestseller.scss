@@ -1,0 +1,22 @@
+.bestSeller{
+    display: flex;
+    flex-direction: column;
+
+    &__title{
+        background-image: url("../Resources/bestsellerBackground.jpg");
+        height: 48vh;
+        background-size: cover;
+    }
+
+    .cont{
+        background-image: url("../Resources/productBackground.jpg");
+        height: 129vh;
+        background-size: cover;
+
+        &__title{
+            padding-top: 30%;
+            padding-left: 27%;
+            width: 152vh;
+        }
+    }
+}

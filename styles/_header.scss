@@ -1,10 +1,11 @@
 .mainHeader{
-  background-image: url("../Resources/header.jpg");
+  background-image: url("../Resources/image2.jpg");
   height: 100vh;
-  background-position: 40% 99%;
+  width: 100%;
+  background-position: 0% 45%;
+  background-size: cover;
   display: flex;
   flex-direction: column;
-  //height: 717;
 
   .header{
       padding-bottom:70vh;
@@ -28,21 +29,23 @@
       }
   }
   .camera{
-    padding-top: 25%;
-    padding-left: 5%;
+    padding-top: 15%;
+    padding-left: 3%;
     position: absolute;
-    width: 24%;
+    width: 51%;
   }
 
   .banner{
     display: flex;
     flex: row;
-    padding-left: 7%;
+    padding-left: 6%;
+    padding-top: 10%;
 
     &__title{
-      padding-right: 60%;
+      padding-right: 37%;
       font-family: $bannerfont;
       color: white;
+      font-size: 4vh;
     }
 
     &__buttom{
@@ -54,64 +57,4 @@
     }
   }
 
-   
-
 }
-
-/*.mainHeader {
-  display: flex;
-  height: 85vh;
-  background-image: url("../Resources/header.jpg");
-  background-position: 50% 35%;
-
-  .banner{
-      display: flow-root;
-  }
-
-}
-
-.Header{
-
-  width: 100%;
-  display: flex;
-
-  &__sections{
-      font: $headerfont;
-  }
-
-  &__logo{
-      width: 40%;
-      height: 41%;
-      padding-bottom: 300px;
-  }
-}*/
-
-/*.mainHeader {
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: flex-end;
-  
-    &__info {
-      padding: 20px;
-      display: flex;
-      background-color: rgba(34, 34, 34, 0.76);
-      color: #ffffff;
-      width: 100%;
-      align-items: center;
-  
-      .btn {
-        margin-left: auto;
-      }
-    }
-  
-    &__title {
-      font-size: 30px;
-      margin-right: 20px;
-    }
-  
-    &__text {
-      max-width: 40%;
-    }
-  }*/
