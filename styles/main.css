@@ -350,32 +350,53 @@ body {
 
 .charact {
   background-image: url("../Resources/CharactBackground.jpg");
-  height: 170vh;
+  height: 216vh;
   background-size: cover;
 }
 
 .charact__title {
-  font-family: "Montserrat", Medium Italic;
-  color: white;
-  font-size: 8vh;
-  padding-left: 32%;
-  padding-top: 13%;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 18%;
+}
+
+.charact__textOne {
+  position: absolute;
+  padding-top: 19%;
+  padding-left: 39.8%;
+}
+
+.charact__textTwo {
+  width: 26%;
+  position: absolute;
+  padding-top: 69%;
+  padding-left: 9%;
+}
+
+.charact__textThree {
+  width: 90%;
+  position: absolute;
+  padding-top: 69%;
+  padding-left: 72%;
+  text-align: right;
 }
 
 .charact__img {
   padding-left: 50vh;
   position: absolute;
-}
-
-.charact__product {
-  font-family: "Montserrat", Medium;
-  position: absolute;
+  padding-top: 22%;
 }
 
 .gallery {
   background-image: url("../Resources/GalleryBackground.jpg");
-  height: 129vh;
+  height: 136vh;
   background-size: cover;
+}
+
+.gallery__title {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 5%;
 }
 
 .specs {

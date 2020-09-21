@@ -1,5 +1,12 @@
 .gallery{
     background-image: url("../Resources/GalleryBackground.jpg");
-    height: 129vh;
+    height: 136vh;
     background-size: cover;
+
+    &__title{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 5%;
+    }
+
 }
