@@ -343,6 +343,135 @@ body {
 }
 
 .bestSeller .cont__title {
-  height: 48vh;
+  padding-top: 30%;
+  padding-left: 27%;
+  width: 152vh;
+}
+
+.charact {
+  background-image: url("../Resources/CharactBackground.jpg");
+  height: 129vh;
+  background-size: cover;
+}
+
+.charact__title {
+  font-family: "Montserrat", Medium Italic;
+  color: white;
+  font-size: 8vh;
+  padding-left: 32%;
+  padding-top: 13%;
+}
+
+.charact__img {
+  padding-left: 50vh;
+  position: absolute;
+}
+
+.charact__product {
+  font-family: "Montserrat", Medium;
+  position: absolute;
+}
+
+.gallery {
+  background-image: url("../Resources/GalleryBackground.jpg");
+  height: 129vh;
+  background-size: cover;
+}
+
+.specs {
+  background-image: url("../Resources/SpecsBackground.jpg");
+  height: 112vh;
+  background-size: cover;
+}
+
+.promo {
+  background-image: url("../Resources/promoCamera.jpg");
+  height: 112vh;
+  background-size: cover;
+}
+
+.newsletter {
+  background-image: url("../Resources/newsletterBackground.jpg");
+  height: 60vh;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.newsletter__cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  width: 63%;
+  padding: 182px 85px;
+}
+
+.newsletter__title {
+  font-family: "Montserrat", Medium;
+  font-size: 20px;
+  color: white;
+  padding-right: 26vh;
+}
+
+.newsletter__subscription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.newsletter__input {
+  border: none;
+  height: 30px;
+}
+
+.newsletter__input::-webkit-input-placeholder {
+  font-family: "Montserrat", Medium;
+  padding-left: 20px;
+}
+
+.newsletter__input:-ms-input-placeholder {
+  font-family: "Montserrat", Medium;
+  padding-left: 20px;
+}
+
+.newsletter__input::-ms-input-placeholder {
+  font-family: "Montserrat", Medium;
+  padding-left: 20px;
+}
+
+.newsletter__input::placeholder {
+  font-family: "Montserrat", Medium;
+  padding-left: 20px;
+}
+
+.newsletter__button {
+  background-color: #F0B606;
+  width: 20vh;
+  height: 5vh;
+  color: white;
+  font-family: "Montserrat", Normal;
+  border: 0;
+}
+
+.footer {
+  background-color: black;
+  height: 112vh;
+  background-size: cover;
 }
 /*# sourceMappingURL=main.css.map */

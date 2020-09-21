@@ -1,0 +1,48 @@
+.newsletter{
+    background-image: url("../Resources/newsletterBackground.jpg");
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    &__cont{
+        display: flex;
+        //align-items: center;
+        flex-direction: row;
+        text-align: center;
+        width: 63%;
+        padding: 182px 85px;
+    }
+
+    &__title{
+        font-family: $bodyfont;
+        font-size: 20px;
+        color: white;
+        padding-right: 26vh;
+    }
+
+    &__subscription{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__input{
+        border: none;
+        height: 30px;
+
+        &::placeholder{
+            font-family: $bodyfont;
+            padding-left: 20px;
+        }
+    }
+
+    &__button{
+        background-color: $balck;
+        width: 113px;
+        height: 30px;
+        color: white;
+        font-family: $buttomfont;
+        border: 0;
+    }
+}

@@ -7,14 +7,19 @@ $black: #080808;
 $white: white;
 
 //fonts
-$headerfont: "Poppins", Bold;
-$bannerfont: "Montserrat", SemiBold;
-$buttomfont: "Montserrat", Normal;
-$titlefont: "Montserrat", Medium Italic;
-$bodyfont: "Montserrat", Medium;
+$headerfont: "Poppins", Bold; //sdss
+$bannerfont: "Montserrat", SemiBold; //boba
+$buttomfont: "Montserrat", Normal; //f
+$titlefont: "Montserrat", Medium Italic; //
+$bodyfont: "Montserrat", Medium; //Si funciona
 
 @import './reset';
 @import './general';
 @import './header';
 @import './bestseller';
-
+@import './charact';
+@import './gallery';
+@import './specs';
+@import './promo';
+@import './newsletter';
+@import './footer';
