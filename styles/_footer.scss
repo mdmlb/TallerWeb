@@ -5,43 +5,27 @@
     justify-content: center; 
 
     .cont{
-        width:60%;
+        //width:60%;
+        //padding: 43px;
+        //margin-left: 66px;
         display: flex;
-        justify-content: space-around;
+        //justify-content: space-around;
 
-        &__logo{
-            padding-top: 11%;
-            width: 30%;
+        .logo{
+            width: 443px;
+            justify-content: center;
+
+            &__img{
+                padding-top: 19%;
+                width: 81%;
+                padding-left: 23%;
+            }
         }
     
-        &__info{
-            display: flex;
+        .left{
+            width: 66%;
             flex-direction: column;
-            padding-top: 50px;
-            padding-bottom: 50px;
-    
-            &--side{
-                text-decoration: none;
-                margin-right: 15px;
-            }
-            
-            &__title{
-                font-family: $titlefont;
-                color:white;
-            }
-    
-            &__link{
-                font-family: $bodyfont;
-                color: white;
-                text-decoration: none;
-
-                &--side{
-                    text-decoration: none;
-                    margin-right: 15px;
-                }
-            }
         }
-
     }
     
 }
