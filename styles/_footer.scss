@@ -1,5 +1,47 @@
 .footer{
-    background-color: black;
-    height: 112vh;
+    background-image: url("../Resources/footerbackground.jpg");
+    height: 60vh;
     background-size: cover;
+    justify-content: center; 
+
+    .cont{
+        width:60%;
+        display: flex;
+        justify-content: space-around;
+
+        &__logo{
+            padding-top: 11%;
+            width: 30%;
+        }
+    
+        &__info{
+            display: flex;
+            flex-direction: column;
+            padding-top: 50px;
+            padding-bottom: 50px;
+    
+            &--side{
+                text-decoration: none;
+                margin-right: 15px;
+            }
+            
+            &__title{
+                font-family: $titlefont;
+                color:white;
+            }
+    
+            &__link{
+                font-family: $bodyfont;
+                color: white;
+                text-decoration: none;
+
+                &--side{
+                    text-decoration: none;
+                    margin-right: 15px;
+                }
+            }
+        }
+
+    }
+    
 }

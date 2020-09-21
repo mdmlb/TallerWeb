@@ -380,14 +380,58 @@ body {
 
 .specs {
   background-image: url("../Resources/SpecsBackground.jpg");
-  height: 112vh;
+  height: 107vh;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .promo {
-  background-image: url("../Resources/promoCamera.jpg");
-  height: 112vh;
+  background-image: url("../Resources/promobackground.jpg");
+  height: 100vh;
   background-size: cover;
+}
+
+.promo .cont {
+  height: 100%;
+  padding-left: 70%;
+}
+
+.promo .cont__cont {
+  height: 100%;
+  width: 77%;
+  background-color: #080808;
+  text-align: center;
+}
+
+.promo .cont__title {
+  font-weight: lighter;
+  font-variant: all-petite-caps;
+  padding-top: 64%;
+  font-size: 50px;
+}
+
+.promo .cont__info {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.promo .cont__button {
+  width: 151px;
+  height: 38px;
+  background-color: #F0B606;
+  font-family: "Montserrat", Normal;
+  font-size: 16px;
+  border: 0;
 }
 
 .newsletter {
@@ -461,17 +505,77 @@ body {
 }
 
 .newsletter__button {
-  background-color: #F0B606;
-  width: 20vh;
-  height: 5vh;
+  background-color: #080808;
+  width: 113px;
+  height: 30px;
   color: white;
   font-family: "Montserrat", Normal;
   border: 0;
 }
 
 .footer {
-  background-color: black;
-  height: 112vh;
+  background-image: url("../Resources/footerbackground.jpg");
+  height: 60vh;
   background-size: cover;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .cont {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer .cont__logo {
+  padding-top: 11%;
+  width: 30%;
+}
+
+.footer .cont__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer .cont__info--side {
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.footer .cont__info__title {
+  font-family: "Montserrat", Medium Italic;
+  color: white;
+}
+
+.footer .cont__info__link {
+  font-family: "Montserrat", Medium;
+  color: white;
+  text-decoration: none;
+}
+
+.footer .cont__info__link--side {
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+body {
+  font-family: "Montserrat", Medium;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,42 @@
 .promo{
-    background-image: url("../Resources/promoCamera.jpg");
-    height: 112vh;
+    background-image: url("../Resources/promobackground.jpg");
+    height: 100vh;
     background-size: cover;
     
+    .cont{
+        
+        height: 100%;
+        padding-left: 70%;
+
+        &__cont{
+            height: 100%;
+            width: 77%;
+            background-color:$black;
+            text-align: center;
+        }
+
+        &__title{
+            font-weight: lighter;
+            font-variant: all-petite-caps;
+            padding-top: 64%;
+            font-size: 50px;
+        }
+
+        &__info{
+            font-size: 13px;
+            font-weight: bold;
+            margin: 15px;
+        }
+
+        &__button{
+            width: 151px;
+            height: 38px;
+            background-color: $yellow;
+            font-family: $buttomfont;
+            font-size: 16px;
+            border: 0;
+        }
+
+    }
+        
 }

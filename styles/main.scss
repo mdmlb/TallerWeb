@@ -7,10 +7,10 @@ $black: #080808;
 $white: white;
 
 //fonts
-$headerfont: "Poppins", Bold; //sdss
-$bannerfont: "Montserrat", SemiBold; //boba
-$buttomfont: "Montserrat", Normal; //f
-$titlefont: "Montserrat", Medium Italic; //
+$headerfont: "Poppins", Bold; //
+$bannerfont: "Montserrat", SemiBold; //
+$buttomfont: "Montserrat", Normal; //Si funciona
+$titlefont: "Montserrat", Medium Italic; // no funciona
 $bodyfont: "Montserrat", Medium; //Si funciona
 
 @import './reset';
@@ -23,3 +23,14 @@ $bodyfont: "Montserrat", Medium; //Si funciona
 @import './promo';
 @import './newsletter';
 @import './footer';
+
+
+body{
+    font-family: "Montserrat", Medium;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
