@@ -23,8 +23,77 @@
         }
     
         .left{
+
             width: 66%;
-            flex-direction: column;
+            display: flex;
+            flex-direction: row;
+
+            .infoOne{
+                flex-direction: column;
+                margin-left: 11%;
+                margin-top: 16%;
+
+                &__title{
+                    font-weight: 500;
+                    font-size: 24px;
+                }
+
+                .containe{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 16%;
+
+                    &__link{
+                        font-size: 15px;
+                        margin: 19% 0% 0% 0%;
+                    }
+
+                }
+                
+            }
+
+            .infoTwo{
+                flex-direction: column;
+                margin-left: 10%;
+                margin-top: 16%;
+
+                &__title{
+                    font-weight: 500;
+                    font-size: 24px;
+                }
+
+                .conta{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 26%;
+
+                    &__link{
+                        font-size: 15px;
+                        margin: 19% 0% 0% 0%;
+                    }
+
+                }
+            }
+
+            .infoThree{
+                flex-direction: column;
+                margin-left: 11%;
+                margin-top: 16%;
+
+                &__title{
+                    font-weight: 500;
+                    font-size: 24px;
+                }
+                &__icono{
+                    width: 8%;
+                }
+                .media{
+                    padding-top: 11%;
+
+                }
+                
+            }
+
         }
     }
     

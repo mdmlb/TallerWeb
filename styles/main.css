@@ -350,7 +350,7 @@ body {
 
 .charact {
   background-image: url("../Resources/CharactBackground.jpg");
-  height: 129vh;
+  height: 170vh;
   background-size: cover;
 }
 
@@ -397,6 +397,7 @@ body {
 
 .specs__title {
   font-size: 30px;
+  padding-top: 3%;
 }
 
 .specs .specsBox {
@@ -405,7 +406,7 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   margin: 5%;
-  margin-top: 15%;
+  margin-top: 12%;
 }
 
 .specs .specsBox__container {
@@ -461,7 +462,7 @@ body {
 }
 
 .promo .cont__info {
-  font-size: 13px;
+  font-size: 26px;
   font-weight: bold;
   margin: 7%;
   margin-top: 14%;
@@ -586,10 +587,95 @@ body {
 
 .footer .cont .left {
   width: 66%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer .cont .left .infoOne {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-left: 11%;
+  margin-top: 16%;
+}
+
+.footer .cont .left .infoOne__title {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.footer .cont .left .infoOne .containe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 16%;
+}
+
+.footer .cont .left .infoOne .containe__link {
+  font-size: 15px;
+  margin: 19% 0% 0% 0%;
+}
+
+.footer .cont .left .infoTwo {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 10%;
+  margin-top: 16%;
+}
+
+.footer .cont .left .infoTwo__title {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.footer .cont .left .infoTwo .conta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 26%;
+}
+
+.footer .cont .left .infoTwo .conta__link {
+  font-size: 15px;
+  margin: 19% 0% 0% 0%;
+}
+
+.footer .cont .left .infoThree {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 11%;
+  margin-top: 16%;
+}
+
+.footer .cont .left .infoThree__title {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.footer .cont .left .infoThree__icono {
+  width: 8%;
+}
+
+.footer .cont .left .infoThree .media {
+  padding-top: 11%;
 }
 
 body {
