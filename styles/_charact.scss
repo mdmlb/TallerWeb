@@ -11,8 +11,9 @@
 
     &__textOne{
         position: absolute;
-        padding-top: 19%;
-        padding-left: 39.8%;
+        padding-top: 12%;
+        padding-left: 40.4%;
+        opacity: 0;
     }
 
     &__textTwo{
@@ -20,6 +21,7 @@
         position: absolute;
         padding-top: 69%;
         padding-left: 9%;
+        opacity: 0;
     }
 
     &__textThree{
@@ -28,8 +30,30 @@
         padding-top: 69%;
         padding-left: 72%;
         text-align: right;
+        opacity: 0;
     }
 
+    &__dotOne{
+        position: absolute;
+        width: 54%;
+        padding-top: 20%;
+        padding-left: 48%;
+    }
+
+    &__dotTwo{
+        position: absolute;
+        width: 15%;
+        padding-top: 46%;
+        padding-left: 9%;
+    }
+
+    &__dotThree{
+        position: absolute;
+        width: 90%;
+        padding-top: 46%;
+        padding-left: 84%;
+    }
+    
     &__img{
         padding-left: 50vh;
         position: absolute;

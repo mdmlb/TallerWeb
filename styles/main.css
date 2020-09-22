@@ -362,8 +362,9 @@ body {
 
 .charact__textOne {
   position: absolute;
-  padding-top: 19%;
-  padding-left: 39.8%;
+  padding-top: 12%;
+  padding-left: 40.4%;
+  opacity: 0;
 }
 
 .charact__textTwo {
@@ -371,6 +372,7 @@ body {
   position: absolute;
   padding-top: 69%;
   padding-left: 9%;
+  opacity: 0;
 }
 
 .charact__textThree {
@@ -379,6 +381,28 @@ body {
   padding-top: 69%;
   padding-left: 72%;
   text-align: right;
+  opacity: 0;
+}
+
+.charact__dotOne {
+  position: absolute;
+  width: 54%;
+  padding-top: 20%;
+  padding-left: 48%;
+}
+
+.charact__dotTwo {
+  position: absolute;
+  width: 15%;
+  padding-top: 46%;
+  padding-left: 9%;
+}
+
+.charact__dotThree {
+  position: absolute;
+  width: 90%;
+  padding-top: 46%;
+  padding-left: 84%;
 }
 
 .charact__img {
@@ -389,7 +413,7 @@ body {
 
 .gallery {
   background-image: url("../Resources/GalleryBackground.jpg");
-  height: 136vh;
+  height: 171vh;
   background-size: cover;
 }
 
@@ -397,6 +421,31 @@ body {
   font-size: 30px;
   text-align: center;
   padding-top: 5%;
+}
+
+.carrousel {
+  width: 156vh;
+  padding-top: 8%;
+  padding-left: 23%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.carrousel__stripe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: -webkit-transform .6s ease;
+  transition: -webkit-transform .6s ease;
+  transition: transform .6s ease;
+  transition: transform .6s ease, -webkit-transform .6s ease;
+}
+
+.carrousel__slider {
+  margin-top: 8%;
+  margin-left: 41%;
 }
 
 .specs {
