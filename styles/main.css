@@ -424,9 +424,9 @@ body {
 }
 
 .carrousel {
-  width: 156vh;
-  padding-top: 8%;
-  padding-left: 23%;
+  width: 103vh;
+  margin-top: 17%;
+  margin-left: 25%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -444,7 +444,7 @@ body {
 }
 
 .carrousel__slider {
-  margin-top: 8%;
+  margin-top: 6%;
   margin-left: 41%;
 }
 
