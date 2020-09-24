@@ -9,21 +9,53 @@ const charactDot2 = document.querySelector('.charact__dotTwo');
 const charactDot3 = document.querySelector('.charact__dotThree');
 
 charactDot1.addEventListener('click', function(){
-    //let scr = "./Resources/dotActive.png";
-    charactDot1.setAttribute('src', './Resources/dotActive.png');
-    charactText1.style.transform = 'opacity(none)';
-    
-    console.log();
+    const img1 = './Resources/dotInnactive.png';
+    const img2 = './Resources/dotActive.png';
+
+    const currentImg = charactDot1.getAttribute('src');
+
+    if(currentImg == img1) {
+        charactDot1.setAttribute('src', img2);
+    } else {
+        charactDot1.setAttribute('src', img1);
+    }
+
+    charactText1.classList.toggle("textopacity");
 });
 
+
+
+
 charactDot2.addEventListener('click', function(){
-    charactDot2.setAttribute('src', './Resources/dotActive.png');
+    const img1 = './Resources/dotInnactive.png';
+    const img2 = './Resources/dotActive.png';
+
+    const currentImg = charactDot2.getAttribute('src');
+
+    if(currentImg == img1) {
+        charactDot2.setAttribute('src', img2);
+    } else {
+        charactDot2.setAttribute('src', img1);
+    }
+
+    charactText2.classList.toggle("textopacity");
 
     console.log("Boton 2");
 });
 
 charactDot3.addEventListener('click', function(){
-    charactDot3.setAttribute('src', './Resources/dotActive.png');
+    const img1 = './Resources/dotInnactive.png';
+    const img2 = './Resources/dotActive.png';
+
+    const currentImg = charactDot3.getAttribute('src');
+
+    if(currentImg == img1) {
+        charactDot3.setAttribute('src', img2);
+    } else {
+        charactDot3.setAttribute('src', img1);
+    }
+
+    charactText3.classList.toggle("textopacity");
     console.log("Boton 3");
 });
 

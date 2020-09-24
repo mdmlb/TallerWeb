@@ -326,7 +326,7 @@ body {
     width: 75%;
   }
   .header__sections {
-    padding-top: 14%;
+    display: none;
   }
   .header .camera {
     padding-top: 50%;
@@ -407,6 +407,10 @@ body {
   opacity: 0;
 }
 
+.charact .textopacity {
+  opacity: 1;
+}
+
 .charact__textTwo {
   width: 26%;
   position: absolute;
@@ -446,7 +450,7 @@ body {
 }
 
 .charact__img {
-  padding-left: 50vh;
+  padding-left: 44vh;
   position: absolute;
   padding-top: 22%;
 }
@@ -537,6 +541,10 @@ body {
 .carrousel__slider {
   margin-top: 6%;
   margin-left: 41%;
+  -webkit-transition: -webkit-transform .6s ease;
+  transition: -webkit-transform .6s ease;
+  transition: transform .6s ease;
+  transition: transform .6s ease, -webkit-transform .6s ease;
 }
 
 @media (max-width: 425px) {
@@ -754,7 +762,7 @@ body {
   border: 0;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 425px) {
   .newsletter {
     height: 46vh;
   }

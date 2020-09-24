@@ -16,6 +16,11 @@
         opacity: 0;
     }
 
+    .textopacity{
+        opacity: 1;
+    }
+    
+
     &__textTwo{
         width: 26%;
         position: absolute;
@@ -23,6 +28,7 @@
         padding-left: 9%;
         opacity: 0;
     }
+
 
     &__textThree{
         width: 90%;
@@ -55,7 +61,7 @@
     }
     
     &__img{
-        padding-left: 50vh;
+        padding-left: 44vh;
         position: absolute;
         padding-top: 22%;
     }
