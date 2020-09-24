@@ -60,9 +60,55 @@
         padding-top: 22%;
     }
 
-    @media (max-width: 360px){
-
-    }
     
 }
 
+@media (max-width: 425px){
+    .charact{
+        height: 102vh;
+    
+        &__title{
+            font-size: 102%;
+            text-align: center;
+            padding-top: 18%;
+        }
+    
+        &__textOne{
+            padding-top: 25%;
+            padding-left: 11.4%;
+            font-size: 62%;
+        }
+    
+        &__textTwo{
+            width: 46%;
+            padding-top: 104%;
+            padding-left: 9%;
+            font-size: 62%;
+        }
+    
+        &__textThree{
+            width: 91%;
+            padding-top: 104%;
+            padding-left: 53%;
+            font-size: 62%;
+        }
+    
+        &__dotOne{
+            padding-top: 41%;
+        }
+    
+        &__dotTwo{
+            padding-top: 75%;
+        }
+    
+        &__dotThree{
+            padding-top: 75%;
+        }
+        
+        &__img{
+            padding-left: 14vh;
+            padding-top: 49%;
+            width: 77%;
+        }
+    }
+}

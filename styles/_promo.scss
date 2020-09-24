@@ -46,8 +46,37 @@
 
     }
 
-    @media (max-width: 360px){
+}
 
-    }
+@media (max-width: 425px){
+
+    .promo{
+        height: 135vh;
+
+        .cont{
+            
+            height: 100%;
+            padding-left: 0%;
+            padding-top: 108%;
+            background-image: url("../Resources/promoCamera.jpg");
+            background-position: 55% -3%;
+            background-size: 176%;
     
+            &__cont{
+                height: 100%;
+                width: 100%;
+            }
+
+            &__title{
+                padding-top: 14%;
+            }
+    
+            &__info{
+                font-size: 131%;
+                margin: 14%;
+            }
+    
+        }
+    }
+
 }

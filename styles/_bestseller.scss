@@ -6,6 +6,7 @@
         background-image: url("../Resources/bestsellerBackground.jpg");
         height: 48vh;
         background-size: cover;
+        background-position: center;
     }
 
     .cont{
@@ -20,7 +21,25 @@
         }
     }
 
-    @media (max-width: 360px){
+}
 
+@media (max-width: 425pxpx){
+
+    .bestSeller{
+    
+        &__title{
+            height: 35vh;
+        }
     }
+
+    .cont{
+        height: 40vh;
+
+        &__title{
+            padding-top: 30%;
+            padding-left: 19%;
+            width: 50vh;
+        }
+    }
+
 }

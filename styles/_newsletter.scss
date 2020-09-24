@@ -45,9 +45,24 @@
         font-family: $buttomfont;
         border: 0;
     }
-
-    @media (max-width: 360px){
-
-    }
     
+}
+
+@media (max-width: 425px){
+
+    .newsletter{
+        height: 46vh;
+    
+        &__cont{
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            width: 63%;
+        }
+
+        &__subscription{
+            margin-top: 9%;
+        }
+    }
 }

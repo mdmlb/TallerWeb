@@ -56,7 +56,40 @@
     }
   }
 
-  @media (max-width: 360px){
+}
 
+@media (max-width: 425px){
+  .header{
+    &__logo{
+      padding-top: 39%;
+      width: 75%;
+    }
+
+    &__sections{
+      padding-top: 14%;
+    }
+
+    .camera{
+      padding-top: 50%;
+      padding-left: 9%;
+      position: absolute;
+      width: 81%;
+    }
+  
+    .banner{
+
+      &__title{
+        opacity: 0;
+        padding-right: 6%;
+      }
+  
+      &__buttom{
+        width: 166%;
+        height: 19%;
+        margin-right: 34%;
+      
+      }
+
+    }
   }
 }

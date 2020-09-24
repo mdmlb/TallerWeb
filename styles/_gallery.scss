@@ -9,8 +9,15 @@
         padding-top: 5%;
     }
 
-    @media (max-width: 360px){
+}
 
+@media (max-width: 425px){
+
+    .gallery{
+        height: 86vh;
+    
+        &__title{
+            font-size: 4vh;
+        }
     }
-
 }
