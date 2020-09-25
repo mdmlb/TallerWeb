@@ -43,7 +43,7 @@
 
     &__title{
       padding-right: 37%;
-      font-family: $bannerfont;
+      font-family: $font;
       color: white;
       font-size: 4vh;
     }
@@ -52,7 +52,7 @@
       width: 20vh;
       height: 5vh;
       background-color: $yellow;
-      font-family: $buttomfont;
+      font-family: $font;
       border: 0;
     }
   }
@@ -96,6 +96,20 @@
         }
   
       }
+  }
+  
+}
+
+@media (max-width: 360px){
+  
+  .mainHeader{
+    height: 75vh;
+    background-size: 218%;
+  
+      .camera{
+        padding-top: 49%;
+      }
+
   }
   
 }

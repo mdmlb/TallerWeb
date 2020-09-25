@@ -7,6 +7,9 @@
         font-size: 30px;
         text-align: center;
         padding-top: 5%;
+        font-style: italic;
+        font-family: $font;
+        letter-spacing: 8px;
     }
 
 }
@@ -21,5 +24,12 @@
             text-align: center;
             padding-top: 18%;
         }
+    }
+}
+
+@media (max-width: 360px){
+
+    .gallery{
+        height: 100vh;
     }
 }

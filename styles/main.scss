@@ -7,11 +7,9 @@ $black: #080808;
 $white: white;
 
 //fonts
-$headerfont: "Poppins", Bold; //
-$bannerfont: "Montserrat", SemiBold; //
-$buttomfont: "Montserrat", Normal; //Si funciona
-$titlefont: "Montserrat", Medium Italic; // no funciona
-$bodyfont: "Montserrat", Medium; //Si funciona
+$headerfont: "Poppins";
+$font: "Montserrat";
+$buttomfont: $font;
 
 @import './reset';
 @import './general';
@@ -27,7 +25,7 @@ $bodyfont: "Montserrat", Medium; //Si funciona
 
 
 body{
-    font-family: "Montserrat", Medium;
+    font-family: $font;
     color: white;
 }
 

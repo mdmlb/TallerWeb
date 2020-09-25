@@ -7,6 +7,9 @@
         font-size: 30px;
         text-align: center;
         padding-top: 18%;
+        font-style: italic;
+        font-family: $font;
+        letter-spacing: 8px;
     }
 
     &__textOne{
@@ -116,5 +119,11 @@
             padding-top: 49%;
             width: 77%;
         }
+    }
+}
+
+@media (max-width: 360px){
+    .charact{
+        height: 100vh;
     }
 }

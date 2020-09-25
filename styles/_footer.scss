@@ -5,11 +5,7 @@
     justify-content: center; 
 
     .cont{
-        //width:60%;
-        //padding: 43px;
-        //margin-left: 66px;
         display: flex;
-        //justify-content: space-around;
 
         .logo{
             width: 443px;
@@ -36,6 +32,7 @@
                 &__title{
                     font-weight: 500;
                     font-size: 24px;
+                    font-style: italic;
                 }
 
                 .containe{
@@ -60,6 +57,7 @@
                 &__title{
                     font-weight: 500;
                     font-size: 24px;
+                    font-style: italic;
                 }
 
                 .conta{
@@ -83,6 +81,7 @@
                 &__title{
                     font-weight: 500;
                     font-size: 24px;
+                    font-style: italic;
                 }
                 &__icono{
                     width: 8%;
@@ -194,6 +193,23 @@
                     
                 }
     
+            }
+        }
+        
+    }
+
+}
+
+@media (max-width: 360px){
+
+    .footer{
+        height: 102vh;
+        background-position-y: 86%;
+    
+        .cont{
+            
+            .left{
+                width: 44%;
             }
         }
         
