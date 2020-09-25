@@ -73,7 +73,7 @@
   .mainHeader{
     height: 78vh;
     background-position: 23% 71%;
-    background-size: 198%;
+    background-size: 212%;
 
     .header{
       padding-bottom: 61vh;
@@ -95,9 +95,13 @@
     }
   
       .camera{
-        padding-top: 39%;
+        padding-top: 50%;
         padding-left: 4.5%;
         width: 67%;
+      }
+
+      .menu{
+        display: flex;
       }
     
       .banner{
@@ -120,14 +124,10 @@
   
   .mainHeader{
     height: 75vh;
-    background-size: 218%;
+    background-size: 255%;
   
       .camera{
         padding-top: 49%;
-      }
-
-      .menu{
-        display: flex;
       }
   }
   

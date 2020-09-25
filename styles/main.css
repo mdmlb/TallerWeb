@@ -334,7 +334,7 @@ body {
   .mainHeader {
     height: 78vh;
     background-position: 23% 71%;
-    background-size: 198%;
+    background-size: 212%;
   }
   .mainHeader .header {
     padding-bottom: 61vh;
@@ -352,9 +352,14 @@ body {
     display: none;
   }
   .mainHeader .camera {
-    padding-top: 39%;
+    padding-top: 50%;
     padding-left: 4.5%;
     width: 67%;
+  }
+  .mainHeader .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .mainHeader .banner__title {
     display: none;
@@ -367,15 +372,10 @@ body {
 @media (max-width: 360px) {
   .mainHeader {
     height: 75vh;
-    background-size: 218%;
+    background-size: 255%;
   }
   .mainHeader .camera {
     padding-top: 49%;
-  }
-  .mainHeader .menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
   }
 }
 
@@ -414,12 +414,12 @@ body {
     height: 38vh;
   }
   .bestSeller .cont {
-    height: 57vh;
+    height: 44vh;
   }
   .bestSeller .cont__title {
-    padding-top: 37%;
-    padding-left: 22%;
-    width: 57vh;
+    padding-top: 36%;
+    padding-left: 21%;
+    width: 44vh;
   }
 }
 
@@ -508,7 +508,7 @@ body {
 
 @media (max-width: 425px) {
   .charact {
-    height: 109vh;
+    height: 100vh;
   }
   .charact__title {
     font-size: 102%;
@@ -571,7 +571,7 @@ body {
 
 @media (max-width: 425px) {
   .gallery {
-    height: 109vh;
+    height: 93vh;
   }
   .gallery__title {
     font-size: 102%;
@@ -790,7 +790,7 @@ body {
 
 @media (max-width: 425px) {
   .promo {
-    height: 135vh;
+    height: 115vh;
   }
   .promo .cont {
     height: 100%;
@@ -1063,7 +1063,7 @@ body {
 @media (max-width: 425px) {
   .footer {
     background-image: url("../Resources/backgroundfooter2.jpg");
-    height: 125vh;
+    height: 105vh;
     background-size: 81%;
     background-position-x: 51%;
     background-position-y: 52%;
@@ -1155,7 +1155,7 @@ body {
     text-align: center;
   }
   .footer .cont .left .infoThree__icono {
-    width: 20%;
+    width: 19%;
   }
   .footer .cont .left .infoThree .media {
     padding-top: 11%;
