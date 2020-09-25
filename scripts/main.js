@@ -73,20 +73,38 @@ carrouselSlider.addEventListener('input', function() {
 });
 
 //MENU
-const menuactive = document.querySelector('.header__menu');
+const menuactive = document.querySelector('.menu');
 const menu = document.querySelector('.burguermenu');
 const dark = document.querySelector('.dark');
 
 menuactive.addEventListener('click', function() {
   dark.classList.add("dark--active");
   menu.classList.add("burguermenu--move");
-  console.log(menu.classList.add("hola"));
+  //console.log();
 });
 
 dark.addEventListener('click', function(){
     if(dark.classList.contains("dark--active") && menu.classList.contains("burguermenu--move")){ 
       dark.classList.remove("dark--active"); 
       menu.classList.remove("burguermenu--move")
+    }
+    
+});
+
+//SPECS
+const specs = document.querySelector('.specsBox');
+const modal = document.querySelector('.modal');
+
+specs.addEventListener('click', function() {
+  dark.classList.add("dark--active");
+  modal.classList.add("modal--move");
+  console.log(modal.classList.add("modal--move"));
+});
+
+dark.addEventListener('click', function(){
+    if(dark.classList.contains("dark--active") && modal.classList.contains("modal--move")){ 
+      dark.classList.remove("dark--active"); 
+      modal.classList.remove("modal--move")
     }
     
 });

@@ -18,6 +18,10 @@
         margin: 5%;
         margin-top: 12%;
 
+        &--action{
+            cursor: pointer;
+        }
+
         &__container{
             display: flex;
             padding-left: 22%;
