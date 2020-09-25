@@ -1,5 +1,5 @@
 .carrousel {
-    width: 103vh;
+    width: 50%;
     margin-top: 17%;
     margin-left: 25%;
     justify-content: center;
@@ -22,8 +22,9 @@
 @media (max-width: 425px){
 
   .carrousel {
-    width: 63vh;
-    margin-left: 0%;
+    width: 97%;
+    margin-left: 1.7%;
+    margin-top: 28%;
 
     &__slider{
         margin-top: 6%;

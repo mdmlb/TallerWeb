@@ -37,8 +37,35 @@
         }
     }
 
-    @media (max-width: 360px){
+}
 
+@media (max-width: 425px){
+    .specs{
+        height: 104vh;
+    
+        &__title{
+            padding-top: 0%;
+            font-size: 102%;
+            text-align: center;
+        }
+    
+        .specsBox{
+    
+            &__container{
+                padding-left: 0%;
+                justify-content: center;
+            }
+    
+            &__containerLeft{
+                font-size: 19px;
+                padding-right: 0%;
+                text-align: center;
+            }
+    
+            &__containerRight{
+                display: none;
+            }
+        }
+    
     }
-
 }

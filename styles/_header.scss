@@ -4,15 +4,16 @@
   width: 100%;
   background-position: 0% 45%;
   background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
 
   .header{
-      padding-bottom:70vh;
-      padding-left: 7vh;
-      display: flex;
-      flex: row;
-      height: 50px;
+    padding-bottom:70vh;
+    padding-left: 7vh;
+    display: flex;
+    flex: row;
+    height: 50px;
 
       &__logo{
         padding: 7%;
@@ -59,37 +60,42 @@
 }
 
 @media (max-width: 425px){
-  .header{
-    &__logo{
-      padding-top: 39%;
-      width: 75%;
-    }
-
-    &__sections{
-      display: none;
-    }
-
-    .camera{
-      padding-top: 50%;
-      padding-left: 9%;
-      position: absolute;
-      width: 81%;
-    }
   
-    .banner{
+  .mainHeader{
+    height: 78vh;
+    background-position: 23% 71%;
+    background-size: 198%;
 
-      &__title{
-        opacity: 0;
-        padding-right: 6%;
+    .header{
+      padding-bottom: 61vh;
+
+      &__logo{
+        margin-left: 56%;
       }
   
-      &__buttom{
-        width: 166%;
-        height: 19%;
-        margin-right: 34%;
-      
+      &__sections{
+        display: none;
       }
-
     }
+  
+      .camera{
+        padding-top: 39%;
+        padding-left: 4.5%;
+        width: 67%;
+      }
+    
+      .banner{
+  
+        &__title{
+          display: none;
+        }
+    
+        &__buttom{
+          margin-left: 5%;
+        
+        }
+  
+      }
   }
+  
 }

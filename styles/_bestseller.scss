@@ -13,6 +13,7 @@
         background-image: url("../Resources/productBackground.jpg");
         height: 129vh;
         background-size: cover;
+        background-position: center;
 
         &__title{
             padding-top: 30%;
@@ -23,22 +24,22 @@
 
 }
 
-@media (max-width: 425pxpx){
+@media (max-width: 425px){
 
     .bestSeller{
     
         &__title{
-            height: 35vh;
+            height: 38vh;
         }
-    }
 
-    .cont{
-        height: 40vh;
-
-        &__title{
-            padding-top: 30%;
-            padding-left: 19%;
-            width: 50vh;
+        .cont{
+            height: 57vh;
+    
+            &__title{
+                padding-top: 37%;
+                padding-left: 22%;
+                width: 57vh;
+            }
         }
     }
 

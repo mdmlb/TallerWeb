@@ -14,10 +14,12 @@
 @media (max-width: 425px){
 
     .gallery{
-        height: 86vh;
+        height: 109vh;
     
         &__title{
-            font-size: 4vh;
+            font-size: 102%;
+            text-align: center;
+            padding-top: 18%;
         }
     }
 }
