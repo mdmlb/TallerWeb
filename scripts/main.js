@@ -1,5 +1,5 @@
 
-//Charact
+//CHARACT
 const charact = document.querySelector('.charact');
 const charactText1 = document.querySelector('.charact__textOne');
 const charactText2 = document.querySelector('.charact__textTwo');
@@ -61,7 +61,7 @@ charactDot3.addEventListener('click', function(){
 
 
 
-//Gallery
+//GALLERY
 const carrousel = document.querySelector('.carrousel');
 const carrouselStripe = document.querySelector('.carrousel__stripe');
 const carrouselSlider = document.querySelector('.carrousel__slider');
@@ -70,4 +70,23 @@ carrouselSlider.addEventListener('input', function() {
   const width = carrousel.clientWidth;
   const value = carrouselSlider.value;
   carrouselStripe.style.transform = 'translate(-' + (width * value) + 'px, 0px)';
+});
+
+//MENU
+const menuactive = document.querySelector('.header__menu');
+const menu = document.querySelector('.burguermenu');
+const dark = document.querySelector('.dark');
+
+menuactive.addEventListener('click', function() {
+  dark.classList.add("dark--active");
+  menu.classList.add("burguermenu--move");
+  console.log(menu.classList.add("hola"));
+});
+
+dark.addEventListener('click', function(){
+    if(dark.classList.contains("dark--active") && menu.classList.contains("burguermenu--move")){ 
+      dark.classList.remove("dark--active"); 
+      menu.classList.remove("burguermenu--move")
+    }
+    
 });
